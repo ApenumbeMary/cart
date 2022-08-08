@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        html, body,{
+            overflow: hidden;
+        }
+body{
+    cursor: pointer;
+}
+/* @media(max-width:600px){ */
+    div{
+        display: flex;
+    }
+    main{
+        display: inline;
+    }
+    .parent{
+    /* border: 1px solid; */
+    width: 70vw;
+    height: 90vh;
+    margin: auto;
+    background-color: rgb(231, 221, 223);
+    
+}
+.subp{
+    width: 40vw;
+    height: 70vh;
+    border-radius: 5px; 
+   margin: auto;
+   background-color: white;
+}
+.div1{
+    width: 20vw;
+    height: 70vh;
+    
+}
+.div2{
+    width: 20vw;
+    height: 70vh;
+    border-radius: 5px solid rgb(231, 221, 223);
+    /* text-indent: 30px; */
+    display: block;
+    padding-left: 30px;
+    
+}
+img{
+    width: 20vw;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.para1{
+    color: gray;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+
+}
+h1{
+    font-weight: bold;
+    line-height: 1;
+}
+span{
+    line-height: 2;
+    color: gray;
+}
+.num{
+    color: rgb(22, 129, 93);
+    /* font-weight: bold; */
+    font-size: x-large;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 1px;
+}
+.num2{
+    color: gray;
+    font-size: small;
+    letter-spacing: normal;
+    font-size: x-small;
+}
+button{
+    color: white;
+    background-color: rgb(22, 129, 93);;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 70px;
+    font-weight: bold;
+}
+
+/* } */
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="parent">
+            <div class="subp">
+            <div class="div1">
+                <img src="./image-product-desktop.jpg" alt="">
+            </div>
+            <div class="div2">
+                <p class="para1">PERFUME</p>
+                <h1>Gabrielle <br> Essence Eau <br> De Parfum</h1>
+                
+                <span>A floral, solar and voluptuous</span>
+                <span>interpretation composed by</span>
+                <span>Olivier Polge, Perfumer-Crestor</span>
+                <span style>for the House of CHANEL.</span><br>
+                <br>
+                <p class="num">$149.99        <sup class="num2">$169.99</sup></p>
+                <br>
+                <button>Add to Cart</button>
+
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
